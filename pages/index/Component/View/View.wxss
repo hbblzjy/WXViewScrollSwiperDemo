@@ -1,0 +1,19 @@
+/**View.wxss**/
+.flex-wrp{
+    height: 100px;
+    display: flex;
+    background-color: #ffffff;
+}
+/**记住，样式类名之间可以相互搭配使用，这样样式设计时可以减少代码量，
+不过这需要好的逻辑设计，如：View.wxml文件中
+<view class="flex-item bc_green">111</view>的语句，
+就是flex-item与app.wxss中bc_green的结合**/
+.flex-item{
+    width: 100px;
+    height: 100px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

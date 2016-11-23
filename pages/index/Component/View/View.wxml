@@ -1,0 +1,23 @@
+<!--View.wxml-->
+<view class="viewTitle">
+    <text>View展示</text>
+</view>
+<!--样式一，横向排列-->
+<view class="section">
+    <view class="section__title">样式一，横向排列</view>
+    <view class="flex-wrp">
+        <view class="flex-item bc_green">111</view>
+        <view class="flex-item bc_red">222</view>
+        <view class="flex-item bc_blue">333</view>
+    </view>
+</view>
+<!--样式二，竖向排列,注意在 .wxml的文件中也可以通过style参数进行样式设计-->
+<view class="section">
+    <view class="section__title">样式二，竖向排列</view>
+    <view class="flex-wrp" style="height:300px">
+        <view class="flex-item bc_green" style="margin-top: 0px">111</view>
+        <view class="flex-item bc_red" style="margin-top: 100px">222</view>
+        <view class="flex-item bc_blue" style="margin-top: 200px">333</view>
+    </view>
+</view>
+

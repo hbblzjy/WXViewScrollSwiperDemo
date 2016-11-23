@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+
+    "pages/index/Component/View/View",
+    "pages/index/Component/ScrollView/ScrollView",
+    "pages/index/Component/Swiper/Swiper"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF0F5",
+    "navigationBarTitleText": "组件一介绍：视图控件",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#fbf9fe"
+  }
+}

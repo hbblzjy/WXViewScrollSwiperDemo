@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<!--创建一个标签介绍-->
+<view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+<!--创建三个navigator,一定要记住为了便捷，可以把新创建的文件放
+在index文件下，然后对应写文件跳转路径，如：Component/View/View，
+在软件的最下面有对应编辑文件的路径地址-->
+<view class="viewName">
+  <navigator url="Component/View/View">
+    <text class="view-Name">View展示</text>
+  </navigator>
+</view>
+<view class="viewName">
+  <navigator url="Component/ScrollView/ScrollView">
+    <text class="view-Name">Scroll-View展示</text>
+  </navigator>
+</view>
+<view class="viewName">
+  <navigator url="Component/Swiper/Swiper">
+    <text class="view-Name">Swiper展示</text>
+  </navigator>
+</view>
+  
+
